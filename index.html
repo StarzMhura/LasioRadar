@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LasioRadar</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="Logo">
+            <img src="img/treino.png" alt="logo genérica" class="img_logo">
+            <h1>LasioRadar</h1>
+        </div>
+            <nav class= "menu">
+                <a href="#Inicio">Início</a>
+                <a href="#Sobre">Sobre</a>
+                <a href="#Depoimentos">Depoimentos</a>
+            </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="conteudo_hero">
+                <h1>Teine certo, sem dores e com resultados reais</h1>
+                <p>O primeiro personal digital que adapta o treino à sua rotina, suas limitações e previne lesões</p>
+                <button id="btn_abrir_modal" class="Primeiro_botao">Criar meu treino</button>
+            </div>
+            <div class="Img_destaque">
+                <img src="https://i.pinimg.com/1200x/33/52/d9/3352d9e9a123a36612049253e9c98eac.jpg" alt="IMG GENERICA">
+            </div>
+        </section>
+            <section id="sobre" class="secao_servicos">
+                <h2>Crie seu próprio sucesso corporal</h2>
+                <div class="grid_3_colunas">
+                    <div class="card_serviços">
+                        <span class="icone">⭐</span>
+                        <h3>Treinos personalizados</h3>
+                        <p>Fichas focadas no seu objetivo</p>
+                    </div>
+                    <div class="card_serviço">
+                        <span class="icone">✨</span>
+                        <h3>Prevenção de lesões</h3>
+                        <p>Análise de dores para evitar abalo em suas articulações</p>
+                    </div>
+                    <div class="card_serviço">
+                    <span class="icone">📰</span>
+                    <h3>Evolução constante</h3>
+                    <p>Troca de estímulos para você não imobilizar nos resultados</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secao_sobre">
+                <div class="img_app">
+                    <img src="SO QUANDO O CSS FOR COLOCADO LINDAMENTE" alt="SO QUANDO TIVER CSS">
+                </div>
+                <div class="txt_sobre">
+                    <h2>Sua academia na palma da sua mão</h2>
+                    <p>Tenha acesso a fichas explicativas direto do seu smartphone</p>
+                    <button></button>
+                
+                </div>
+            </section>
+    </main>
+    <footer id="contato" class="rodape">
+        <div class="coluna_rodape">
+            <h4>LasioRadar</h4>
+            <p>Plataforma educativa para prevenir lesões de forma digital</p>
+        </div>
+        <div class="coluna_rodape">
+            <h4>Mídias sociais</h4>
+            <p>so quando tiver</p>
+        </div>
+        <p>© 2026 LasioRadar — Ceará Científico projeto</p>
+    </footer>
+
+    <div id="Modal_questionario" class="modal_overlay" style="display: none;">
+        <div class="Modal_content">
+            <span id="btn_fecjar_modal">&times;</span>
+
+            <h2>Sua Ficha</h2>
+            <form id="form_ficha">
+                <div class="form_group">
+                    <label for="objetivo">Qual seu objetivo principal?</label>
+                    <select id="objetivo" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="hipertrofia">Ganho de massa</option>
+                        <option value="emagrecimento">Emagrecer</option>
+                    </select>
+                </div>
+                <button type="submit" class="Primeiro_botao">Montar treino</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
